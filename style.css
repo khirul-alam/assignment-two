@@ -161,6 +161,64 @@ nav ul li a{
 .main_rate p{
     color: #FFFFFF;
 }
+/* grid section */
+
+ .grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.section_title {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.item {
+    background: #2a0e46;
+    border-radius: 20px;
+    padding: 30px;
+    color: #fff;
+}
+
+.item img {
+    width: 40px;
+    margin-bottom: 16px;
+}
+
+.item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #cfc6dc;
+}
+.item:nth-child(2) {
+    grid-row: span 2; /* 1st item */
+}
+.item:nth-child(3) {
+    grid-column: span 2; /* 1st item */
+}
+.item:nth-child(4) {
+    grid-column: span 2; /* 1st item */
+}
+.item:nth-child(5) {
+    grid-column: span 2; /* 1st item */
+}
+
+
+
 
 /* responsive nav bar */
 @media screen and (max-width:576px) {
@@ -259,6 +317,13 @@ nav ul li a{
     .main_rate{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        
+    }
+    /* grid responsive */
+    .grid_container{
+        display: block;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
         
     }
     
