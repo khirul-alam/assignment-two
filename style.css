@@ -126,6 +126,41 @@ nav ul li a{
     color: greenyellow;
 
 }
+/* main section design */
+.main_container{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 846px;
+    margin: 0 auto;
+    /* padding-top: 15px; */
+}
+.main_des{
+    text-align: center;
+    margin-bottom: 160px;
+}
+.main_des h2{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+.main_des p{
+    color: white;
+    font-size: 16px;
+}
+.main_rate{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+}
+.main_rate h1{
+    color: #00FF7B;
+}
+.main_rate p{
+    color: #FFFFFF;
+}
 
 /* responsive nav bar */
 @media screen and (max-width:576px) {
@@ -161,13 +196,13 @@ nav ul li a{
     .hero_image{
         width: 100%;
         max-width: 100%;
+        
         padding: 0 16px;
         
     }
     .hero_image_1{
         width: 100%;
         height: auto;
-
     }
     .hero_image_2{
         width: 35%;
@@ -193,8 +228,9 @@ nav ul li a{
         gap: 12px;
         width: 100%;
     }
-    
-
+    .hero_head{
+        display: none;
+    }
     .hero_head h2 {
         font-size: 22px;
     }
