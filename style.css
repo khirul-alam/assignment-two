@@ -216,6 +216,38 @@ nav ul li a{
 .item:nth-child(5) {
     grid-column: span 2; /* 1st item */
 }
+.feture_head{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.youtube_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 846px;
+    margin: 0 auto;
+    gap: 10px;
+    
+}
+.youtube h3{
+    color: #FFFFFF;
+    /* font-size: 16px; */
+    font-weight: bold;
+    margin: 24px 12px;
+}
+.youtube p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.youtube img{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    }
+
 
 
 
