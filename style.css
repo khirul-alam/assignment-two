@@ -168,7 +168,7 @@ nav ul li a{
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: repeat(3, 1fr); */
     gap: 24px;
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -358,7 +358,15 @@ nav ul li a{
         row-gap: 10px;
         
     }
-    
+    /* responsive fature bar */
+    .youtube_container{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .youtube iframe{
+        width: 100%;
+        border-radius: 10px;
+    }
     
      
    
