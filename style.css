@@ -138,7 +138,7 @@ nav ul li a{
 }
 .main_des{
     text-align: center;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
 }
 .main_des h2{
     color: white;
@@ -253,6 +253,12 @@ nav ul li a{
     
     .hero_head{
         margin: -50px;
+        
+    }
+    /* responsive main bar */
+    .main_rate{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         
     }
     
