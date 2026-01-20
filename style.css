@@ -305,12 +305,49 @@ nav ul li a{
     height: 20px;
     object-fit: contain;
 }
-
-
-
-
-
-
+footer{
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    color: #FFFFFF;
+    position: relative;
+    
+    
+}
+.footer_container{
+    text-align: center;
+    width: 100%;
+    max-width: 846px;
+    margin: 0 auto;
+    gap: 20px;
+    height: 250px;
+    border-radius: 20px;
+}
+.footer_container_head{
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.icon-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.footer-icon-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer-icon-box img {
+    width: 22px;
+    height: 22px;
+}
 
 
 /* responsive nav bar */
@@ -444,6 +481,18 @@ nav ul li a{
     .icon-wrapper{
         justify-content: center;
         margin-bottom: 40px;
+    }
+    /* footer section responsive */
+    .icon-footer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 10px; */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 255px;
+        margin-left: 130px;
+        /* padding: 56px 72px; */
     }
     
      
