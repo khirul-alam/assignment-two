@@ -247,6 +247,67 @@ nav ul li a{
     height: 10px;
     margin-right: 10px;
     }
+.host_heading{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.host_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 846px;
+    margin: 0 auto;
+    gap: 10px;
+    background-color: #4C2087;
+    height: 250px;
+    border-radius: 20px;
+}
+.host_image{
+    
+    margin: 40px 20px;
+    
+}
+
+.host_details h2{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+.host_details p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+ .icon-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #4f46e5; 
+    border-radius: 50%;        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-box:hover{
+    cursor: pointer;
+    background-color: rgb(17, 237, 43);
+}
+
+.icon-box img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+
+
 
 
 
@@ -366,6 +427,23 @@ nav ul li a{
     .youtube iframe{
         width: 100%;
         border-radius: 10px;
+    }
+    /* host details responsive */
+    .host_container{
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+    .host_details h2{
+        text-align: center;
+        }
+    .host_details p{
+        margin: 20px;
+        text-align: center;
+    }
+    .icon-wrapper{
+        justify-content: center;
+        margin-bottom: 40px;
     }
     
      
